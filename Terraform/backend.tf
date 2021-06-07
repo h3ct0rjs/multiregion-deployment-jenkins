@@ -10,6 +10,6 @@ terraform {
     region  = "us-east-1"
     profile = "ACG"
     key     = "terraformstatefile"
-    bucket  = "devopscolombiastatebucket2021"
+    bucket  = "devopscolombiastatebucket2021x"
   }
 }
