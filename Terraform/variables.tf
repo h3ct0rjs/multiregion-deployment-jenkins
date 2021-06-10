@@ -18,7 +18,7 @@ variable "external_ip" {
 
 variable "workers-count" {
   type    = number
-  default = 5
+  default = 2
 }
 
 variable "instance-type" {
@@ -29,4 +29,9 @@ variable "instance-type" {
 variable "webserver-port" {
   type    = number
   default = 80
+}
+
+variable "dns-name" {
+  type    = string
+  default = "sysops.com.co"
 }
