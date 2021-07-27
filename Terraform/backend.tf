@@ -6,6 +6,7 @@ terraform {
     aws = ">=3.0.0"
 
   }
+  #We could avoid this behaviour using the terraform -backend= param. This is just and exercise.
   backend "s3" {
     region  = "us-east-1"
     profile = "ACG"
